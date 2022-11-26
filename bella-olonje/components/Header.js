@@ -6,14 +6,15 @@ const Header = () => {
   return (
     <>
       <div>
-        <div className="max-w-7xl w-full mx-auto my-3 grid grid-flow-col  items-center ">
+        <div className="max-w-7xl w-full mx-auto my-1 grid grid-flow-col  items-center ">
           <div>
             <Image
               // loader={myLoader}
               src="/Images/BellaOlonje-logo.png"
               alt="BellaOlonje-logo"
-              width={200}
-              height={100}
+              width={170}
+              height={80}
+              // layout="responsive"
             />
           </div>
           <div>
