@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
       <div>
-        <div className="max-w-7xl w-full mx-auto my-0 grid grid-flow-col  items-center ">
+        <div className="max-w-7xl w-full mx-auto my-3 grid grid-flow-col  items-center ">
           <div>
             <Image
               // loader={myLoader}
@@ -17,7 +17,7 @@ const Header = () => {
             />
           </div>
           <div>
-            <ul className="grid grid-flow-col ">
+            <ul className="grid grid-flow-col font-mont font-semibold text-base text-black ">
               <li>
                 <Link href="/">Home</Link>
               </li>
