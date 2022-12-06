@@ -11,7 +11,10 @@ export default function Home() {
       <PageTitle pageTitle="Bella Olonje" />
       <Header />
       <HomeBanner />
-      <AppWork />
+      {/* //todo make one component for all of them app info */}
+      <div className="max-w-6xl w-full my-0 mx-auto">
+        <AppWork />
+      </div>
     </>
   );
 }
